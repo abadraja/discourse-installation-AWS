@@ -1,5 +1,7 @@
 # discourse-installation-AWS
 
+This will let you create an AWS EC2 instance with preinstalled [Discourse](https://github.com/discourse/discourse/blob/master/docs/INSTALL-cloud.md).
+
 1. Generate ssh key.
 Example: `ssh-keygen -f terraform/mykey`
 
