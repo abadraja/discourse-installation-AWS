@@ -10,3 +10,10 @@ Example: `ssh-keygen -f terraform/mykey`
 3. Run `cd terraform; terraform init`
 
 4. Run `terraform apply`
+
+5. Enter in your EC2 instance. Example: `ssh -i "mykey" ubuntu@ec2-<ip-from-the-output>.eu-west-1.compute.amazonaws.com` and run: 
+```
+sudo -s; 
+cd /var/discourse/;
+./discourse-setup
+```
