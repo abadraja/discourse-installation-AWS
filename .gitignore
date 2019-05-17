@@ -7,3 +7,7 @@
 
 # .tfvars files
 *.tfvars
+
+# ssh keys
+mykey
+mykey.*
